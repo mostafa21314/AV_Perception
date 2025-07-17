@@ -62,7 +62,7 @@ def train_yolo_model(data_yaml='dataset.yaml', model_size='yolov8n', epochs=100,
 if __name__ == '__main__':
     model, results, metrics = train_yolo_model(
         data_yaml='dataset.yaml',
-        model_size='yolov8n',
+        model_size='yolov8x',
         epochs=100,
         batch_size=16
     )

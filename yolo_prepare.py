@@ -57,7 +57,7 @@ def split_and_clean_dataset(images_dir, labels_dir, output_dir, train_ratio=0.7,
 # Usage
 if __name__ == '__main__':
     split_and_clean_dataset(
-        images_dir='/home/mostafa21314/Extractor/output_yolo_format/images',
-        labels_dir='/home/mostafa21314/Extractor/output_yolo_format/labels',
-        output_dir='/home/mostafa21314/Extractor/yolo_dataset'
+        images_dir='/home/aly/Desktop/Mostafa/AV_Perception/output_yolo_format/images',
+        labels_dir='/home/aly/Desktop/Mostafa/AV_Perception/output_yolo_format/labels',
+        output_dir='/home/aly/Desktop/Mostafa/AV_Perception/yolo_dataset'
     )
